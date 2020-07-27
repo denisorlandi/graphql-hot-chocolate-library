@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="HotChocolate" Version="10.4.3" />
-    <PackageReference Include="HotChocolate.AspNetCore.Playground" Version="10.4.3" />
+    <PackageReference Include="HotChocolate.AspNetCore" Version="10.2.0" />
+    <PackageReference Include="HotChocolate.AspNetCore.Playground" Version="10.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
   </ItemGroup>

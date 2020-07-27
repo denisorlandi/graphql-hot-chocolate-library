@@ -43,13 +43,13 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
-            "HotChocolate": {
+            "HotChocolate.AspNetCore": {
               "target": "Package",
-              "version": "[10.4.3, )"
+              "version": "[10.2.0, )"
             },
             "HotChocolate.AspNetCore.Playground": {
               "target": "Package",
-              "version": "[10.4.3, )"
+              "version": "[10.2.0, )"
             },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
@@ -61,10 +61,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.InMemory": {
-              "target": "Package",
-              "version": "[3.1.6, )"
             },
             "Microsoft.NETCore.App": {
               "target": "Package",
