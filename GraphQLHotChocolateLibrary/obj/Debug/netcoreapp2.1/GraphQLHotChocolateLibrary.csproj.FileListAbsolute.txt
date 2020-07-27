@@ -23,3 +23,10 @@ C:\Users\dorlandi\source\repos\GraphQLHotChocolateLibrary\GraphQLHotChocolateLib
 C:\Users\dorlandi\source\repos\GraphQLHotChocolateLibrary\GraphQLHotChocolateLibrary\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.g.cshtml.cs
 C:\Users\dorlandi\source\repos\GraphQLHotChocolateLibrary\GraphQLHotChocolateLibrary\obj\Debug\netcoreapp2.1\GraphQLHotChocolateLibrary.RazorTargetAssemblyInfo.cache
 C:\Users\dorlandi\source\repos\GraphQLHotChocolateLibrary\GraphQLHotChocolateLibrary\obj\Debug\netcoreapp2.1\GraphQLHotChocolateLibrary.RazorTargetAssemblyInfo.cs
+C:\Users\dorlandi\source\repos\GraphQLHotChocolateLibrary\GraphQLHotChocolateLibrary\bin\Debug\netcoreapp2.1\GraphQLHotChocolateLibrary.pdb
+C:\Users\dorlandi\source\repos\GraphQLHotChocolateLibrary\GraphQLHotChocolateLibrary\bin\Debug\netcoreapp2.1\GraphQLHotChocolateLibrary.Views.dll
+C:\Users\dorlandi\source\repos\GraphQLHotChocolateLibrary\GraphQLHotChocolateLibrary\bin\Debug\netcoreapp2.1\GraphQLHotChocolateLibrary.Views.pdb
+C:\Users\dorlandi\source\repos\GraphQLHotChocolateLibrary\GraphQLHotChocolateLibrary\obj\Debug\netcoreapp2.1\GraphQLHotChocolateLibrary.Views.pdb
+C:\Users\dorlandi\source\repos\GraphQLHotChocolateLibrary\GraphQLHotChocolateLibrary\obj\Debug\netcoreapp2.1\GraphQLHotChocolateLibrary.dll
+C:\Users\dorlandi\source\repos\GraphQLHotChocolateLibrary\GraphQLHotChocolateLibrary\obj\Debug\netcoreapp2.1\GraphQLHotChocolateLibrary.pdb
+C:\Users\dorlandi\source\repos\GraphQLHotChocolateLibrary\GraphQLHotChocolateLibrary\obj\Debug\netcoreapp2.1\GraphQLHotChocolateLibrary.csproj.CopyComplete

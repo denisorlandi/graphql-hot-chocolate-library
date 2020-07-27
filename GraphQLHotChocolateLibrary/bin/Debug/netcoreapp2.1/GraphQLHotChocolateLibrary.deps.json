@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "ef96c02400d4a37b01031ccd770100900668cb2e"
+    "signature": "3b4d13e8a8df7cf7a9af8fb11deaae5e2bf9fea6"
   },
   "compilationOptions": {
     "defines": [
@@ -25,6 +25,7 @@
       "GraphQLHotChocolateLibrary/1.0.0": {
         "dependencies": {
           "HotChocolate": "10.4.3",
+          "HotChocolate.AspNetCore.Playground": "10.4.3",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0"
@@ -85,6 +86,39 @@
           "lib/netstandard2.0/HotChocolate.Abstractions.dll": {}
         }
       },
+      "HotChocolate.AspNetCore.Abstractions/10.4.3": {
+        "dependencies": {
+          "HotChocolate": "10.4.3",
+          "HotChocolate.Server": "10.4.3",
+          "Microsoft.AspNetCore.Http": "2.1.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/HotChocolate.AspNetCore.Abstractions.dll": {
+            "assemblyVersion": "10.4.3.0",
+            "fileVersion": "10.4.3.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/HotChocolate.AspNetCore.Abstractions.dll": {}
+        }
+      },
+      "HotChocolate.AspNetCore.Playground/10.4.3": {
+        "dependencies": {
+          "HotChocolate.AspNetCore.Abstractions": "10.4.3",
+          "Microsoft.AspNetCore.StaticFiles": "2.1.1",
+          "Microsoft.Extensions.FileProviders.Embedded": "2.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/HotChocolate.AspNetCore.Playground.dll": {
+            "assemblyVersion": "10.4.3.0",
+            "fileVersion": "10.4.3.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/HotChocolate.AspNetCore.Playground.dll": {}
+        }
+      },
       "HotChocolate.Language/10.4.3": {
         "dependencies": {
           "System.Memory": "4.5.3",
@@ -98,6 +132,22 @@
         },
         "compile": {
           "lib/netstandard2.0/HotChocolate.Language.dll": {}
+        }
+      },
+      "HotChocolate.Server/10.4.3": {
+        "dependencies": {
+          "HotChocolate.Abstractions": "10.4.3",
+          "HotChocolate.Utilities": "10.4.3",
+          "System.IO.Pipelines": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/HotChocolate.Server.dll": {
+            "assemblyVersion": "10.4.3.0",
+            "fileVersion": "10.4.3.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/HotChocolate.Server.dll": {}
         }
       },
       "HotChocolate.Subscriptions/10.4.3": {
@@ -3330,12 +3380,33 @@
       "path": "hotchocolate.abstractions/10.4.3",
       "hashPath": "hotchocolate.abstractions.10.4.3.nupkg.sha512"
     },
+    "HotChocolate.AspNetCore.Abstractions/10.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2VoZBr7QY+aOJyxXmzj+VmzLDT3f7Tno22Y9DkZRsMp6uo3+NHQcYcqSA7Qz91sJjewx3qvwAtgCDcGZPAL/xQ==",
+      "path": "hotchocolate.aspnetcore.abstractions/10.4.3",
+      "hashPath": "hotchocolate.aspnetcore.abstractions.10.4.3.nupkg.sha512"
+    },
+    "HotChocolate.AspNetCore.Playground/10.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w0vWzKc1dgTQeOZpnt0oJ5+YKGunWoltql9rbtStEAf9rrIYO5P4TbLrPbebuUlp0i/+ln28bmjCIgZ42+zNnA==",
+      "path": "hotchocolate.aspnetcore.playground/10.4.3",
+      "hashPath": "hotchocolate.aspnetcore.playground.10.4.3.nupkg.sha512"
+    },
     "HotChocolate.Language/10.4.3": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-qKkWX3xX5bR+gwdOAmj8ZJQUDLygDGoTnrhgURsy53rfHc0N31QQf6GKw2c3fnlVH22P/+tdgiuL/ata7RZS3w==",
       "path": "hotchocolate.language/10.4.3",
       "hashPath": "hotchocolate.language.10.4.3.nupkg.sha512"
+    },
+    "HotChocolate.Server/10.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UvwI8Nbj7q4kZv+Tz5Cb9GvEgOH7KDICL5WLsgiJ+3taKG50auuJdqpFYChYUGldvzrMelG0M8pqeux1eqK53g==",
+      "path": "hotchocolate.server/10.4.3",
+      "hashPath": "hotchocolate.server.10.4.3.nupkg.sha512"
     },
     "HotChocolate.Subscriptions/10.4.3": {
       "type": "package",

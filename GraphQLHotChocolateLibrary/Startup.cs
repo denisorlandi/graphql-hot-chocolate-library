@@ -9,6 +9,9 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using HotChocolate;
+using HotChocolate.AspNetCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace GraphQLHotChocolateLibrary
 {
@@ -33,6 +36,10 @@ namespace GraphQLHotChocolateLibrary
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddDbContext<BookDbContext>(options => options.UseInMemoryDatabase(databaseName: "Books"));
+            services.AddGraphQL(SchemaBuilder.New().AddQueryType<Query>().AddMutationType<Mutation>().Create());
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,6 +60,8 @@ namespace GraphQLHotChocolateLibrary
             app.UseCookiePolicy();
 
             app.UseMvc();
+
+            app.UseGraphQL("/graphql").UsePlayground("/graphql");
         }
     }
 }
